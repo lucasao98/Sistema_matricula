@@ -1,0 +1,49 @@
+.container-fluid{
+    height: 100vh;
+    background-color: #D0D4C9;
+}
+.header{
+    height: 80px;
+    background-color: #5DA38E;
+}
+
+.menu{
+    background-color: #595456;
+}
+
+.content{
+    height:500px;
+}
+
+
+.content-form{
+    background-color: #0C7857;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #5DA38E;
+}
+
+.footer_color{
+    background-color: #5DA38E;
+}
+
+ul{
+    display: flex;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+}
+li > a:hover{
+    color: #0C7857;
+}
+
+ul > li{
+    margin-left: 15px;
+    list-style: none;
+}
